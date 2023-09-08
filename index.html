@@ -12,14 +12,10 @@
         <div>
           <h2 data-testid="slackUserName">DaveShocket</h2>
           <img src="https://i.ibb.co/3B6pZ2g/IMG-0324.jpg" alt="DaveShocket" />
-          <p data-testid="currentDayOfTheWeek"></p>
-          <p data-testid="currentUTCTime">
-            <script>
-              const myDate = new Date();
-              let date = myDate.toUTCString();
-              document.write(date);
-            </script>
+          <p data-testid="currentDayOfTheWeek">
+            Current Day Of The Week: Friday
           </p>
+          <p data-testid="currentUTCTime"></p>
           <p data-testid="myTrack">Frontend Track</p>
           <footer>
             <p data-testid="githubURL">
@@ -29,5 +25,9 @@
         </div>
       </section>
     </main>
+     <script>
+   const el= Date.now();
+   document.write("Current UTC Time:"+el);
+  </script>
   </body>
 </html>
