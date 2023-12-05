@@ -1,13 +1,41 @@
+.center {
+font-family: Lucidal Console;
+text-align: center;
+}
 img {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
-  border: 2px solid black;
+ width: 250px;
+ border: 2px solid grey;
+ border-radius: 5px;
+ 
 }
 body {
-  background-color: pink;
-  text-align: center;
+ background-color: #060f29;
+    color: white;
 }
 p {
-  font-weight: bold;
+font-size: 17px;
+ font-weight: bold;
+ line-height: 30px;
+ letter-spacing: 1px;
+ font-family: Lucidal Console;
 }
+figcaption {
+font-size: 15;
+}
+h1 {
+ white-space:nowrap;
+overflow:hidden;
+ animation:typing 4s steps(22,end) forwards, blink 1s infinite;
+ }
+ @keyframes typing {
+ 0% { width:0% }
+ 100% { width:100% }
+ }
+ @keyframes blink {
+ 0%,100% {
+ border-right:2px solid transparent;
+ }
+ 50% {
+ border-right:2px solid #222;
+ }
+ }
