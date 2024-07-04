@@ -13,6 +13,11 @@ margin-top: 150px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      color: #666;
 }
+.birthday-message {
+    padding-top: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
 img {
  width: 250px;
  border: 2px solid grey;
