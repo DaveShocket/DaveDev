@@ -24,11 +24,11 @@ margin-top: 150px;
 img {
  width: 250px;
  border: 2px solid #FF69B4;
- border-radius: 15px;
+ border-radius: 20px;
 }
 img:hover {
  border: 2px solid #555555;
- border-radius: 15px;
+ border-radius: 20px;
 }
 header {
     background-color: #4CAF50;
@@ -56,6 +56,7 @@ font-size: 17px;
 }
 figcaption {
 font-size: 15;
+    color: #010101;
 }
 h1 {
  white-space:nowrap;
