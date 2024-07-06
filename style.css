@@ -19,7 +19,7 @@ margin-top: 150px;
     border-bottom: 1px solid #ddd;
 }
 .date {
-    font-size: 10px;
+    font-size: 15px;
 }
 img {
  width: 250px;
@@ -38,6 +38,7 @@ header {
 }
 header:hover {
     background-color: pink;
+    color: #555555;
 }
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
