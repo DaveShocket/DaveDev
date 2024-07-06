@@ -19,9 +19,12 @@ margin-top: 150px;
     border-bottom: 1px solid #ddd;
 }
 img {
- width: 250px;
+    background-image: url ("https://i.ibb.co/km5FwZQ/godmother2.jpg");
+    background-size: cover;
+     padding: 10px 0px 80px 0px;
+ /* width: 250px;
  border: 2px solid green;
- border-radius: 10px;
+ border-radius: 10px; */
  
 }
 img:hover {
