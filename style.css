@@ -20,12 +20,13 @@ margin-top: 150px;
 }
 img {
  width: 250px;
- border: 2px solid grey;
- border-radius: 5px;
+ border: 2px solid green;
+ border-radius: 10px;
  
 }
 img:hover {
-   border-radius: 75px;
+   background-image: url ("/Images/building.jpg");
+    background-size: cover;
 }
 header {
     background-color: #4CAF50;
