@@ -25,7 +25,7 @@ img {
  
 }
 img:hover {
-   background-image: url ("/Images/building.jpg");
+   background-image: url ("https://i.ibb.co/km5FwZQ/godmother2.jpg");
     background-size: cover;
      padding: 10px 0px 80px 0px;
 }
