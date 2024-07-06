@@ -18,23 +18,13 @@ margin-top: 150px;
     padding: 20px;
     border-bottom: 1px solid #ddd;
 }
-.imag {
-    background-image: url ("https://i.ibb.co/0V7m2Mq/godmother.jpg");
-    background-size: cover;
-     padding: 10px 0px 80px 0px;
-    margin-top: 12vh;
+.img {
  width: 250px;
  border: 2px solid green;
  border-radius: 10px;
- 
 }
-.imag:hover {
-   background-image: url ("https://i.ibb.co/km5FwZQ/godmother2.jpg");
-    background-size: cover;
-    margin-top: 12vh;
-     padding: 10px 0px 80px 0px;
-    width: 250px;
- border: 2px solid green;
+.img:hover {
+ border: 2px solid red;
  border-radius: 10px;
 }
 header {
