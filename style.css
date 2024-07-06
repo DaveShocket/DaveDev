@@ -19,16 +19,16 @@ margin-top: 150px;
     border-bottom: 1px solid #ddd;
 }
 .date {
-    font-size: 15px;
+    font-size: 16px;
 }
 img {
  width: 250px;
- border: 2px solid green;
- border-radius: 10px;
+ border: 2px solid #FF69B4;
+ border-radius: 15px;
 }
 img:hover {
- border: 2px solid red;
- border-radius: 10px;
+ border: 2px solid #555555;
+ border-radius: 15px;
 }
 header {
     background-color: #4CAF50;
@@ -76,7 +76,7 @@ overflow:hidden;
  }
  .copy-rite {
      padding-top: 30px;
- color: #888;
+ color: black;
      font-size: 5px;
  }
 footer, .footer {
